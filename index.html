@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>objetos</title>
     <script src="./main.js" defer></script>
-    <script src="./aviones.js"></script>
+    <script src="./aviones.js" defer></script>
 </head>
 <body>
-
+    <section>
+        <button onclick="painter.paintSingleImage(todo.getRandomCivil())">Civil aleatorio</button>
+        <button onclick="painter.paintSingleImage(todo.getRandomMilitary())">Militar aleatorio</button>
+        <button onclick="painter.paintMultipleImages(todo.getAll())">Todos</button>
+    </section>
 </body>
 </html>
